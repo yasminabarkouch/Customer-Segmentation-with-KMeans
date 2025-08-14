@@ -4,7 +4,7 @@ This project applies KMeans clustering to segment customers based on their annua
 
 ---
 
-##  Dataset Overview
+##  Dataset Source
 
 - **Source**: [Kaggle - Bike Buyers Dataset](https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python?resource=download) 
 - The dataset includes the following fields:
@@ -16,39 +16,32 @@ This project applies KMeans clustering to segment customers based on their annua
 
 - **Data Selection**
   - Selected relevant numerical features (age, annual_income, spending_score).
-  - Data Transformation:
-    - Converted `Income` to Number format
-    - Created custom columns:
-      - **Age Brackets** using nested `IF` statements
-      - **Commute Distance Ranges** using logical formulas
-  - PivotTables & Slicers for interactive filtering
-  - Charts for data visualization
+- **Preprocessing**
+  - Applied StandardScaler via a ColumnTransformer to standardize numerical data.
+- **Pipeline Construction**
+  - Combined preprocessing and KMeans clustering into a single scikit-learn Pipeline.
+- **Optimal Cluster Search**
+  - Used the elbow method to determine the best number of clusters based on inertia values.
+ - **Model Fitting & Prediction**
+  - Assigned customers to clusters and stored results in the original dataset.
+- **Visualization**
+  - Elbow curve showing inertia vs. k
+ 
+  ![Dashboard Screenshot](Bike_Sales-Dashboard.png)
+  
+  - Customer segments scatter plot (Annual Income vs Spending Score) using Bokeh for interactivity.
+ 
+  ![Dashboard Screenshot](Bike_Sales-Dashboard.png)  
 
----
+## Tools & Libraries:
 
-##  Business Questions Answered
+- Python (pandas, numpy)
 
-1. **What is the average income of people who purchased vs. did not purchase a bike?**  
-   → Bike buyers had higher average incomes. Among them, **men had an average income of $60,124**.
+- scikit-learn (Pipeline, ColumnTransformer, KMeans, StandardScaler)
 
-2. **How many people who purchased a bike commute less than 1 mile to work?**  
-   → **20%** of those who purchased a bike had a **0–1 mile** commute to work.
+- Bokeh (interactive plots)
 
-3. **What is the age distribution of bike buyers?**  
-   → Around **40%** of bike buyers fall within the **30–54 age range**.
-
----
-
-##  Dashboard
-
-An interactive Excel dashboard was built using:
-- PivotTables
-- Slicers to filter data dynamically
-
-![Dashboard Screenshot](Bike_Sales-Dashboard.png)  
-
-
----
+- Matplotlib & Seaborn (static visualizations)
 
 ##  How to View the Project
 
