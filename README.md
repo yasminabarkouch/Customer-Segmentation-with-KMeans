@@ -27,11 +27,11 @@ This project applies KMeans clustering to segment customers based on their annua
 - **Visualization**
   - Elbow curve showing inertia vs. k
  
-  ![Dashboard Screenshot](Bike_Sales-Dashboard.png)
+  ![Elbow Screenshot](/image/Elbow.png)
   
   - Customer segments scatter plot (Annual Income vs Spending Score) using Bokeh for interactivity.
  
-  ![Dashboard Screenshot](Bike_Sales-Dashboard.png)  
+  ![Segment Screenshot](/image/Customer_Segment.png)  
 
 ## Tools & Libraries:
 
