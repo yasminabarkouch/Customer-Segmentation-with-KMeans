@@ -43,8 +43,7 @@ This project applies KMeans clustering to segment customers based on their annua
   
   - Customer segments scatter plot (Annual Income vs Spending Score) using Bokeh for interactivity.
  
-  ![Segment Screenshot](/image/Customer_Segment.png)  
-
+  ![Segment Screenshot](/image/Customer_Segment.png)
 ## Tools & Libraries:
 
 - Python (pandas, numpy)
