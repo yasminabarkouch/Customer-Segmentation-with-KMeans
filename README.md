@@ -29,12 +29,13 @@ This project applies KMeans clustering to segment customers based on their annua
     - Mean of Age, Annual Income, and Spending Score by Gender.
       
       ![Mean Screenshot](/image/Mean_by_Gender.png)
+      
     - Male and Female Distribution
       
       ![Male Female Screenshot](/image/Male_Female_Distribution.png)
       
     - Age and Annual Income Frequencies
-    - 
+      
       ![Age Income Screenshot](/image/Age_Income_Frequencies.png)
       
   - Elbow curve showing inertia vs. k
