@@ -51,36 +51,14 @@ This project applies KMeans clustering to segment customers based on their annua
 
 - scikit-learn (Pipeline, ColumnTransformer, KMeans, StandardScaler)
 
-- Bokeh (interactive plots)
+- Matplotlib, Seaborn, and Bokeh (Visualizations)
 
-- Matplotlib & Seaborn (static visualizations)
+- (static visualizations)
 
-##  How to View the Project
+##  Insights:
 
-1. Clone or download this repository
-2. Open the `Bike_Sales_Analysis.xlsx` file in Microsoft Excel
-3. Explore the "Dashboard" tab to interact with slicers and visualizations
+- Found 5 customer groups based on income and spending habits.
 
----
+- Identified a high-income customer group with low spending scores, highlighting a potential for targeted engagement.
 
-##  Key Takeaways
 
-- Gained hands-on experience cleaning and transforming real-world data in Excel
-- Strengthened logic-building skills using nested `IF` formulas
-- Learned to create dashboards for storytelling and insights
-- Answered real business questions with data-backed insights
-
----
-
-##  Project Status
-
- Completed  
- Excel file and visuals uploaded  
- Ready for portfolio and sharing
-
----
-
-##  Let's Connect
-
-If you have feedback or similar projects to share, I’d love to connect!  
-📧 LinkedIn: www.linkedin.com/in/yasminabarkouch
