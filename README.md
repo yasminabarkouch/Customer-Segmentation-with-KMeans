@@ -6,7 +6,7 @@ This project applies KMeans clustering to segment customers based on their annua
 
 ##  Dataset Source
 
-- **Source**: [Kaggle - Bike Buyers Dataset](https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python?resource=download) 
+- **Source**: [Kaggle - Mall Customer Segmentation Data](https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python?resource=download) 
 - The dataset includes the following fields:
   - CustomerID, Gender, Age, Annual Income, Spending Score
 
