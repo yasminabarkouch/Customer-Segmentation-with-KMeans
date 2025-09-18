@@ -61,4 +61,9 @@ This project applies KMeans clustering to segment customers based on their annua
 
 - Identified a high-income customer group with low spending scores, highlighting a potential for targeted engagement.
 
+## Author
+
+Yasmina Barkouch — Data Analyst Enthusiast
+
+LinkedIn Profile :www.linkedin.com/in/yasminabarkouch
 
